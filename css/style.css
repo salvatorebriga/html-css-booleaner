@@ -1,3 +1,16 @@
+header{
+    background-color: rgb(36 24 165);
+    background-image: url("../img/pattern.png");
+    height: 175px;
+    text-align: left;
+}
+
+header > img{
+    width: 300px;
+    margin-top: 85px;
+    margin-left: 15px;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
