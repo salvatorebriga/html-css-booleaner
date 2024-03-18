@@ -11,6 +11,25 @@ header > img{
     margin-left: 15px;
 }
 
+.titolo_pagina{
+    text-align: left;
+    padding: 10px;
+}
+
+.titolo_pagina > h1{
+    font-size: 70px;
+}
+
+.titolo_pagina > p{
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+p > a{
+    text-decoration: none;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
