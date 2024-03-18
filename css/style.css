@@ -30,6 +30,24 @@ p > a{
     text-decoration: none;
 }
 
+.foto{
+    text-align: left;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.tim1 {
+    width: 51.9%;
+}
+
+.tim2{
+    width: 44.4%;
+}
+
+.foto > p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
