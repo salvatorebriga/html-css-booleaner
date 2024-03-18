@@ -1,3 +1,154 @@
+/* header css*/
+
+header{
+    background-color: rgb(36 24 165);
+    background-image: url("../img/pattern.png");
+    height: 145px;
+    text-align: left;
+}
+
+header > img{
+    width: 300px;
+    margin-top: 55px;
+    margin-left: 15px;
+}
+
+main{
+    width: 80%;
+    margin-left: 190px;
+}
+
+footer{
+    width: 80%;
+    margin-left: 190px;
+}
+
+/*titolo css*/
+
+.titolo_pagina{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.titolo_pagina > h1{
+    font-size: 55px;
+    
+}
+
+.titolo_pagina > p{
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+p > a{
+    text-decoration: none;
+}
+
+/* foto css*/
+
+.foto{
+    text-align: left;
+    padding: 10px;
+}
+
+.tim1 {
+    width: 51.9%;
+}
+
+.tim2{
+    width: 44.4%;
+}
+
+.foto > p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*articolo css*/
+
+.articolo{
+    padding: 10px;
+}
+
+.articolo > p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.articolo > ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+.table_container > table{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    border-collapse:collapse ;
+    margin-bottom: 30px;
+}
+
+.table_container > table > thead{
+    background-color: rgb(36 24 165);
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.table_container > table > tbody > tr > td{
+    height: 60px;
+    text-align: left;
+    word-wrap: break-word;
+    width: 20px;
+}
+
+/* classe per le righe blu*/
+
+.blue_row{
+    background-color:lightblue;
+}
+
+/*evidenziatore giallo*/
+
+.yellow_marker{
+    background-color: yellow;
+}
+
+/*footer*/
+
+footer{
+    padding: 10px;
+}
+
+footer > p{
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+footer > .prima_immagine{
+    width: 300px;
+    height: 250px;
+    background-image: url("../img/monitor.jpg");
+    padding: 10px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+footer > .seconda_immagine{
+    width: 300px;
+    height: 250px;
+    background-image: url("../img/graph.jpg");
+    padding: 10px;
+    color: aliceblue;
+}
+
+/*pefforzah*/
+
 *{
     box-sizing: border-box;
     margin: 0;
