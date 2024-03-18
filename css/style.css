@@ -3,13 +3,13 @@
 header{
     background-color: rgb(36 24 165);
     background-image: url("../img/pattern.png");
-    height: 175px;
+    height: 145px;
     text-align: left;
 }
 
 header > img{
     width: 300px;
-    margin-top: 85px;
+    margin-top: 55px;
     margin-left: 15px;
 }
 
