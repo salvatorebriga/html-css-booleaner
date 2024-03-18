@@ -101,6 +101,12 @@ p > a{
     background-color:lightblue;
 }
 
+/*evidenziatore giallo*/
+
+.yellow_marker{
+    background-color: yellow;
+}
+
 /*footer*/
 
 footer{
